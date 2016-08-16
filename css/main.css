@@ -59,7 +59,6 @@ ul .posts {
 
   margin: 15px auto 40px;
 
-
 }
 
 ul.posts li {
@@ -83,6 +82,17 @@ ul.posts li span{
 
 .date {
     color: #FFE000;
+}
+
+.image-wrapper {
+
+  text-align: center;
+}
+
+.image-wrapper .image-caption{
+  color: #999999;
+  margin-top: 3px;
+  font-size: 1em;
 }
 
 .posts-title {
