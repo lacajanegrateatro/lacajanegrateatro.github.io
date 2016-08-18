@@ -4,23 +4,18 @@
         {% include head.html %}
 
 		<body>
-			<nav>
-	    		<ul class="nav nav-pills pull-left">
-                  {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %} 
-                    {% for p in navigation_pages %} 
-                      {% if p.navigation_weight %} 
-                        <li> <a href="{{p.url}}" {% if p.url == page.url %}class="active" {% endif %}> {{p.subtitle}}</a></li> 
-                      {% endif %} 
-                    {% endfor %}
-                </ul>
-			</nav>
+
+            {% include defaultNavigation.html %}
+
 			<div class="container">
 			
 			{{ content }}
 
               {% include footer.html %}
 			
-			</div>
-            <!-- /.container -->
+			</div><!-- /.container -->
+
+		{% include scripts.html %}
+
 		</body>
 	</html>

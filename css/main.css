@@ -1,65 +1,52 @@
 body {
-
     background: #1D1D1D;
     margin: 2px;
+    animation-name: fadeout;
+    animation-duration: 300ms;
 
-}
-
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-
-nav ul li, footer ul li {
-    /*display: inline;*/
-    /*margin-right: 20px;*/
-}
-
-nav ul {
-  font-size: 20px;
 }
 
 a {
-    text-decoration: none;
     color: white;
+
 }
 
 a:hover {
-
   color: lightblue;
+
 }
 
 a.active{
   color: #FFE000;
-}
 
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: #999999;
-}
-p {
-    font-size: 1.9em;
-    line-height: 1.2em;
-    color: #646464;
-}
-
-footer a,
-p a{
-  color: #999999;
 }
 
 footer {
-    margin-top: 20px;
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+  margin-top: 20px;
+  border-top: 1px solid #d5d5d5;
+  font-size: .8em;
+
 }
 
-ul .posts {
 
-  margin: 15px auto 40px;
+footer a,
+.page-paragraph a,
+.posts-title a,
+.post a{
+  color: #999999;
+
+}
+
+footer a:hover,
+.page-paragraph a:hover,
+.posts-title a:hover,
+.post a:hover{
+  color: lightblue;
+
+}
+
+.posts {
+  margin: 15px auto 20px;
 
 }
 
@@ -68,129 +55,263 @@ ul.posts li {
   margin-bottom: 0;
 
 }
-ul.posts li span{
 
+ul.posts li span{
   color: #FFE000;
   margin-bottom: 0;
   margin-right: 2px;
 
 }
 .posts li a {
-
   font-size: 1.7em;
-  color: gainsboro;
   margin-bottom: 0;
+
 }
 
-.date {
+.date,
+.post-date {
     color: #FFE000;
+
+}
+.post-date{
+  font-size: 15px;
+
 }
 
 .image-wrapper {
-
   text-align: center;
+
 }
 
 .image-wrapper .image-caption{
   color: #999999;
   margin-top: 3px;
   font-size: 1em;
+
 }
 
-.posts-title {
-  margin: 0;
+.page-paragraph,
+.post{
+  font-size: 1.9em;
+  line-height: 1.2em;
+  color: #646464;
+
 }
+
+.page-title,
+.page-title-posts{
+  font-size: 3em;
+  font-family:"Helvetica", "Arial", "Sans-Serif";
+  color: #999999;
+
+}
+
+ul .posts-title {
+  margin: 0;
+
+}
+
+
 .posts-subtitle {
 
+  color: #646464;
   font-size: 1.6em;
   margin-top: 0;
+  margin-bottom: 30px;
   line-height: 0.9em;
 
 }
+#defaultNavigation, #footer {
+  font-family:"Helvetica", "Arial", "Sans-Serif";
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
+
+}
+
+
+#defaultNavigation {
+  font-size: 20px;
+
+}
+
+#footer li{
+
+  display: inline;
+  margin-right: 10px;
+
+}
+
+@keyframes fadeout {
+  from {opacity: 0.3;}
+  to {opacity: 1;}
+
+}
+
+
 @media only screen and (min-width: 320px) {
 
- h1 {
+  body {
+    margin-right: 5px;
+
+  }
+
+  .image-wrapper .image-caption{
+    font-size: 12px;
+
+  }
+
+  .posts {
+    margin: 15px 1% 30px;
+
+  }
+
+  .posts-wrapper {
+    margin-right: 3px;
+
+  }
+
+  .page-paragraph,
+  .post{
+    font-size: 1.6em;
+    line-height: 1em;
+
+  }
+
+  .page-title{
    font-size: 2.6em;
 
  }
-  nav ul {
+
+  #defaultNavigation {
     font-size: 14px;
+
   }
-  p {
-    font-size: 1.6em;
-    line-height: 1em;
-  }
+
 }
 @media only screen and (min-width: 360px) {
 
-  h1 {
-    font-size: 2.8em;
-    text-align: justify;
+  .posts {
+
+    margin: 15px 1% 20px;
+
   }
 
 
-  nav ul {
-    font-size: 16px;
-  }
-  p {
+  .page-paragraph,
+  .post{
     font-size: 1.8em;
     line-height: 1.1em;
+
   }
+
+  .page-title{
+    font-size: 2.8em;
+    text-align: justify;
+
+  }
+  .page-title-posts{
+    font-size: 2.8em;
+    text-align: left;
+
+  }
+
+  #defaultNavigation {
+    font-size: 16px;
+
+  }
+
 }
 @media only screen and (min-width: 480px) {
 
-  h1 {
-    font-size: 3em;
-    text-align: center;
-  }
-
-  nav ul {
-    font-size: 19px;
-    margin-left: 15px;
-  }
-  p {
+  .page-paragraph,
+  .post{
     font-size: 1.9em;
     line-height: 1.2em;
+
   }
+
+  .page-title,
+  .page-title-posts{
+    font-size: 3em;
+    text-align: center;
+
+  }
+
+  #defaultNavigation {
+    font-size: 19px;
+    margin-left: 15px;
+
+  }
+
 
 }
 @media only screen and (min-width: 768px) {
 
-  nav ul {
+  body {
+    margin-right: 2px;
 
+  }
+
+  .posts-wrapper {
+    margin-right: 0;
+
+  }
+
+  #defaultNavigation {
     margin-left: 2%;
+
+  }
+
+  #footer li{
+    font-size: 14px;
+
   }
 
 }
 @media only screen and (min-width: 980px) {
 
-  h1{
+  .page-title,
+  .page-title-posts{
     margin-top: 20px;
+
   }
 
-  nav ul {
-
+  #defaultNavigation {
     margin-left: 12%;
+    font-size: 20px;
+
   }
 
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1024px) {
 
 
-  nav ul {
+  .image-wrapper .image-caption{
+    font-size: 14px;
 
+  }
+
+  .posts {
+    margin: 15px 15% 20px;
+
+  }
+
+  #defaultNavigation {
     margin-left: 5%;
+    font-size: 23px;
+
   }
 
 }
 
 @media only screen and (min-width: 1920px) {
 
-
-  nav ul {
-
+  #defaultNavigation {
     margin-left: 20%;
+    font-size: 25px;
+
   }
 
 }
