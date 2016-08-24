@@ -1,0 +1,27 @@
+name: Hank Quinlan
+email: hankquinlan@atouchofevil.com
+address: A Touch of Evil film by Orson Welles
+resume: Corrupted police who plants evidences on people when he's convinced that they're guilty
+degrees:
+   -name: police
+
+
+   -name: specialist in prejudice and preconceptions
+
+
+   -name: discriminator
+professionalEmployment:
+   -name: Corrupted police
+   -projects:
+     -name: plant evidences on subject 1
+     -name: plant evidences on subject 2
+
+
+   -name: Extorsionist
+   -projects:
+     -name: extort subject 1
+     -name: extort subject 2
+
+
+
+
