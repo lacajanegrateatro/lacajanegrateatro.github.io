@@ -11,7 +11,7 @@ navigation_weight: 4
     <div class="posts-wrapper">
       <ul class="posts">
         {% for post in site.posts %}
-        <li class="posts-title"><span>{{ post.date | date_to_string }}</span><span>»</span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li> 
+        <li class="posts-title"><span>{{ post.date | date_to_string }}</span><span>»</span><a href="{{ post.url }}" title="{{ post.title }}#disqus_thread">{{ post.title }}</a></li> 
         <p class="posts-subtitle">
           {{post.subtitle}}
         </p>
