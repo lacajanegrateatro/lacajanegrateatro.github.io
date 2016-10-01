@@ -3,6 +3,8 @@ layout: post
 title: "Hank Quinlan, Horrible Cop, Makes his first draft"
 subtitle: "Hank Quinlan explains the reasons why he makes his first draft."
 date: "2016-08-24 16:32:16"
+categories:
+   - general
 ---
 
 Ok, guys, this is my first attempt with a draft, you'd ask: -d what?- 

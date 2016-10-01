@@ -3,6 +3,8 @@ layout: post
 title: "Hank Quinlan, Horrible Cop, Launches Site"
 subtitle: "Hank Quinlan explains the reasons why he launches his first site."
 date: 2016-08-14
+categories: 
+   - general
 ---
 
 Well. Finally got around to putting this old website together. Neat thing 

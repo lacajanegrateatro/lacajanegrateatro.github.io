@@ -1,6 +1,6 @@
 body {
     background: #1D1D1D;
-    margin: 2px;
+    margin: 5px 2px 15px 2px;
     animation-name: fadeout;
     animation-duration: 300ms;
 
@@ -88,6 +88,7 @@ ul.posts li span{
 
 /*post*/
 
+
 .date,
 .post-date {
     color: #FFE000;
@@ -150,6 +151,38 @@ ul .posts-title {
 
 }
 
+/*category-categories*/
+
+
+.category-title {
+
+  font-size: 2em;
+  color: #999999;
+  margin-left: 8%;
+
+}
+.category-subtitle{
+
+  color: #FFE000;
+  font-size: 1.5em;
+  margin-left: 8%;
+
+
+}
+
+.categories-list{
+
+  margin-left: 6%;
+
+}
+#categories {
+
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+
+
 /*cv*/
 
 .cv {
@@ -177,7 +210,7 @@ ul .posts-title {
 .cv-body-subtitle {
 
   color: #FFE000;
-  font-size: 1.3em;
+  font-size: 1.5em;
 
 }
 
@@ -204,6 +237,31 @@ ul .posts-title {
   line-height: 0.9em;
   margin-top: 0;
   margin-bottom: 2px;
+
+}
+
+.cv-section {
+
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.cv-section-subtitle{
+
+  color: #646464;
+  font-size: 1.5em;
+  text-decoration: underline;
+  text-decoration-color: #999999;
+  line-height: 1em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.cv-section-ul {
+
+  margin: 10px;
+  font-size: 14px;
 
 }
 #cv-resume {

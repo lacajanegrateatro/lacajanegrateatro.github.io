@@ -5,7 +5,7 @@ subtitle: Blog
 navigation_weight: 4
 ---
 
-<div class="row">
+<div class="row" id="posts-list">
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
       <h1 class="page-title-posts">{{ page.title }}</h1>
     <div class="posts-wrapper">
@@ -17,6 +17,21 @@ navigation_weight: 4
         </p>
         {% endfor %} 
       </ul>
+    </div>
+  </div>
+</div>
+<div class="row" id="categories">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <h2 class="category-title">Categories</h2>
+    <div class="posts-wrapper">
+      {% for category in site.categories %}
+      <h3 class="category-subtitle">{{ category[0] }}</h3>
+      <ul class="categories-list">
+        {% for post in category[1] %}
+        <li class="posts-title category-item"><span><a href="{{ post.url }}">{{post.title}}</a></span></li>
+        {% endfor %}
+      </ul>
+      {% endfor %}
     </div>
   </div>
 </div>
