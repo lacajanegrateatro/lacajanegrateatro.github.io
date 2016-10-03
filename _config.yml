@@ -1,6 +1,7 @@
 name : Hank Quinlan, Horrible Cop
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+url: https://lacajanegrateatro.github.io
 gems:
   - jekyll-sitemap
   - jekyll-feed
