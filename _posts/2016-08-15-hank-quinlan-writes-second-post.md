@@ -3,6 +3,7 @@ layout: post
 title: "Hank Quinlan, Horrible Cop, writes his second post"
 subtitle: "Hank Quinlan exposes in spanish how he's feeling about this great task."
 date: 2016-08-15
+author: Hank Quinlan
 categories:
    - with images
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "Hank Quinlan, Horrible Cop, writes his third post"
 subtitle: "Hank Quinlan express his feelings about this beautiful day."
 date: 2016-08-15
+author: Hank Quinlan
 categories:
    - with images
 ---
