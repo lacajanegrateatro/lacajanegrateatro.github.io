@@ -47,6 +47,8 @@ footer a:hover,
 
 /*footer*/
 
+
+
 footer {
   margin-top: 20px;
   border-top: 1px solid #d5d5d5;
@@ -136,6 +138,7 @@ ul.posts li span{
   color: #999999;
 
 }
+
 
 
 ul .posts-title {
@@ -461,10 +464,26 @@ ul .posts-title {
 
   }
 
+  .cv-title{
+
+    margin-top: 20px;
+  }
+
   .posts-wrapper {
     margin-right: 0;
 
   }
+
+  #cv-HankQuinlan {
+
+   /*margin-right: 10%;*/
+    float: left;
+  }
+  #cg {
+
+    float: right;
+  }
+
 
   #defaultNavigation {
     margin-left: 2%;
@@ -481,11 +500,12 @@ ul .posts-title {
 
   .page-title,
   .page-title-posts,
-  .cv-title,
+  /*.cv-title*/
   .post-title{
     margin-top: 20px;
 
   }
+
 
   #defaultNavigation {
     margin-left: 12%;
