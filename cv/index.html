@@ -10,11 +10,11 @@ navigation_weight: 3
     {% for cv_hash in site.data.CV %}
     {% assign cv = cv_hash[1]%}
   <!--WARNING: already changed this div and closing tag to introduce another CV in the same row-->
-  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="cv-HankQuinlan">
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="cvHankFrank">
     <h4 class="cv-title">{{cv.title}}</h4>
     <div class="cv">
       <div class="cv-header">
-        <h3 class="cv-header-title text-justify">{{cv.name}}</h3>
+        <h3 class="cv-header-title text-center">{{cv.name}}</h3>
         <h5 class="cv-header-subtitle text-justify">Intro</h5>
         <address class="cv-address">
           <span><strong>{{cv.address}}</strong></span>

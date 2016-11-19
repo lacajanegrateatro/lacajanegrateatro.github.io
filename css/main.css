@@ -42,7 +42,10 @@ footer a:hover,
 
 /*row*/
 .cv-row{
-  margin-left: 3px;
+
+  /*margin-left: 3px;*/
+  /*margin: 0 auto;*/
+  /*margin-left: 2.5%;*/
 }
 
 /*footer*/
@@ -50,6 +53,7 @@ footer a:hover,
 
 
 footer {
+
   margin-top: 20px;
   border-top: 1px solid #d5d5d5;
   font-size: .8em;
@@ -105,15 +109,20 @@ ul.posts li span{
 
 /*image*/
 
-.image-wrapper {
-  text-align: center;
 
-}
 
 .image-wrapper .image-caption{
   color: #999999;
-  margin-top: 3px;
+  margin-top: 5px;
   font-size: 1em;
+
+}
+
+.image-wrapper {
+
+  text-align: center;
+  margin-top: 15px;
+
 
 }
 
@@ -269,17 +278,19 @@ ul .posts-title {
   font-size: 14px;
 
 }
+
+#cvHankFrank{
+
+  text-align: match-parent;
+
+}
+
 #cv-resume {
 
   margin-bottom: 23px;
 
 }
 
-#cv-resume2{
-
-  margin-bottom: 23px;
-
-}
 
 /*navigation*/
 
@@ -344,6 +355,18 @@ ul .posts-title {
 
   }
 
+  .cv-header-title{
+
+    font-size: 1.8em;
+    text-align: center;
+  }
+
+  .cv-title {
+
+    font-size: 2.1em;
+    text-align: match-parent;
+  }
+
   .post-title{
 
     font-size: 2.5em;
@@ -351,8 +374,7 @@ ul .posts-title {
   }
 
   .page-title,
-  .page-title-posts,
-  .cv-title{
+  .page-title-posts{
    font-size: 2.6em;
 
  }
@@ -374,6 +396,7 @@ ul .posts-title {
 
   }
 
+
   .posts {
 
     margin: 15px 1% 20px;
@@ -394,8 +417,7 @@ ul .posts-title {
   }
 
   .page-title,
-  .page-title-posts,
-  .cv-title{
+  .page-title-posts {
     font-size: 2.8em;
     text-align: justify;
 
@@ -430,6 +452,7 @@ ul .posts-title {
   }
 
 
+
   .page-paragraph,
   .post{
     font-size: 1.9em;
@@ -445,12 +468,12 @@ ul .posts-title {
   }
 
   .page-title,
-  .page-title-posts,
-  .cv-title{
+  .page-title-posts {
     font-size: 3em;
     text-align: center;
 
   }
+
   .page-title-posts{
     margin-left: 0;
   }
@@ -470,9 +493,17 @@ ul .posts-title {
 
   }
 
+  .cv-header-title {
+
+    font-size: 2.1em;
+
+  }
+
   .cv-title{
 
+    font-size: 2.8em;
     margin-top: 20px;
+    text-align: match-parent;
   }
 
   .posts-wrapper {
@@ -480,14 +511,10 @@ ul .posts-title {
 
   }
 
-  #cv-HankQuinlan {
+  #cvHankFrank {
 
-   /*margin-right: 10%;*/
     float: left;
-  }
-  #cg {
-
-    float: right;
+    text-align: match-parent;
   }
 
 
@@ -495,6 +522,7 @@ ul .posts-title {
     margin-left: 2%;
 
   }
+
 
   #footer li{
     font-size: 14px;
@@ -506,10 +534,20 @@ ul .posts-title {
 
   .page-title,
   .page-title-posts,
-  /*.cv-title*/
+  cv-title,
   .post-title{
     margin-top: 20px;
 
+  }
+
+  .cv-header-title {
+
+    margin-right: 7%;
+  }
+
+  .cv-title{
+
+    text-align: match-parent;
   }
 
 
